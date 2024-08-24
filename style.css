@@ -38,6 +38,7 @@
 body {
     background-color: hsl(30, 54%, 90%);
     color: var(--stone600);
+    margin: 100px 0;
     font-size: 14px;
     font-family: "Outfit", sans-serif;
     line-height: 25px;
@@ -135,6 +136,7 @@ img {
         font-size: 14px;
         font-family: "Outfit", sans-serif;
         line-height: 20px;
+        margin: 0px;
     }
 
     h1 {
@@ -157,5 +159,10 @@ img {
     .prep {
         margin: 0 20px;
         border-radius: 5px;
+    }
+
+    .attribution {
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
